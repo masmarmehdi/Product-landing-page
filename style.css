@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family:monospace;
+}
+h1{
+	font-size:40px;
+}
+
+.grid {
+  display: flex;
+}
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+	justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  #page {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 650px) {
+  #Preview{
+    margin-top: 120px;
+  }
+}
+.section{
+	background-color:darkgrey;
+	margin-top:100px;
+	margin-top:50px;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#pagewrapper{
+	position:relative;
+}
+#iframe{
+	align-items:center;
+}
+#header{
+	position:fixed;
+	margin:0;
+}
+#header-img{
+	width:100px;
+	height:80px;
+	align-items:left;
+}
+#nav-bar{
+	width:100%;
+	position:fixed;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:	#808080;
+	font-size:25px;
+	
+}
+#form{
+	height:300px;
+	text-align:center;
+	background-color:darkgrey;
+	padding-top:100px;
+}
+
+.nav-link{
+	color:black;
+	text-decoration:none;
+}
+.nav-link:hover{
+	background-color:#696969;
+}
+#video{
+	margin-top:50px;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+p{
+	font-size:25px;
+}
+
+#email{
+	padding:10px;
+	font-size:25px;
+}
+#submit{
+	background-color:#808080;
+	padding:10px 20px 10px 20px;
+	cursor:pointer;
+	font-size:19px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #DCDCDC;
+		margin:0;
+  }
+}
+#submit:hover{
+	background-color:#696969;
+}
+#Sign-up{
+	margin-top:100px;
+}
+#Prices {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li{
+	list-style:none;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.product > .level {
+  background-color: #808080;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #808080;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: #696969;
+}
+.btn{
+	padding:10px;
+}
+.footer{
+	text-align:right;
+}
